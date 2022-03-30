@@ -21,6 +21,7 @@
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  border-color: rgb(174, 165, 165);
 }
 
 .child {
@@ -31,4 +32,13 @@
 div.text {
   color: green;
   font-size: 22px;
+}
+
+#confirm-button {
+  background-color: green;
+  color: white;
+}
+
+.text.child {
+  color: red;
 }
