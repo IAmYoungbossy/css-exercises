@@ -1,8 +1,16 @@
 .odd {
-    background-color: #f5a0ac; font-family: verdana, 'Dejavu sans', Sans-serif;
+    background-color: #f79aa6; 
+    font-family: verdana, 'Dejavu sans', Sans-serif; 
+    font-size: 24px;
 }
 
 #num2 {
     color: blue;
     font-size: 36px;
+}
+
+#id {
+    background-color: #85e97c;
+    font-size: 24px;
+    font-weight: bold;
 }
