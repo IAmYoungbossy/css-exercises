@@ -39,6 +39,6 @@ div.text {
   color: white;
 }
 
-.text.child {
+div .child {
   color: red;
 }
