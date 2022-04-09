@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -24,4 +27,69 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+/* This used to remove bullet list from unordered items */
+.header ul{
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+}
+/* This is used to remove underlining from links */
+a:link {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+div .left-links-top {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+div .right-links-top {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0%;
+  margin-bottom: 0%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #eeeeee;
+}
+
+div .left-links-bottom {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  gap: 16px;
+}
+
+div .right-links-bottom {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  gap: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button{
+  padding: 8px 16px;
 }
