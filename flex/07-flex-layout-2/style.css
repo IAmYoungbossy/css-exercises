@@ -8,21 +8,62 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0px 16px;
+  margin: 0%;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex: 1 0 auto;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  font-size: 24px;
+  margin: 0%;
+  padding: 0%;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li {
+  margin: 0px 0px 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  width: 300px;
+}
+
+.card-bundle {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  gap: 32px;
+  margin: 48px;
+}
+
+.sidebar-cards {
+  display: flex;
 }
